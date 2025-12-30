@@ -1,6 +1,6 @@
 import { db } from "@/lib/database";
 import Link from "next/link";
-import ListPage from "./listClient";
+import ListPage from "./ListClient";
 
 
 export default async function List() {
