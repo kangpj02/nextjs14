@@ -1,7 +1,7 @@
 import { db } from "@/lib/database"
 import { NextResponse } from "next/server"
 import jwt from "jsonwebtoken"
-import bcrypt from "bcrypt"
+import bcrypt from "bcryptjs";
 import crypto from "crypto"
 
 

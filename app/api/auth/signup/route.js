@@ -1,5 +1,6 @@
 const { db } = require("@/lib/database");
-const bcrypt = require("bcrypt");
+import bcrypt from "bcryptjs";
+
 import { NextResponse } from "next/server"; // NextResponse 추가
 
 export async function POST(req) {
